@@ -1,3 +1,20 @@
+/**
+ * Name: subject.java
+ * Date: 14 January 2025
+ * Author: Thy Sethasarakvath
+ * Modified: 14 January 2025
+ * Description: Lab 05
+ * Functions:
+ * -getPrice(): subject
+ * -getProgram(): subject
+ * -getName(): subject
+ * -getCredits(): subject
+ * Variables:
+ * -price: subject
+ * -PROGRAM: subject
+ * -name: subject
+ * -credits: subject
+ */
 public class subject {
 
     private static final double price;
