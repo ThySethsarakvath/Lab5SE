@@ -20,10 +20,10 @@ public class subject {
 
     private static final double price;
     static {
-        price = 9.9;
+        price = 10.9;
     }
 
-    private static final String PROGRAM = "Year 2 Program"; // 
+    private static final String PROGRAM = "Year 2 Program";  
 
     private String name;
     private int credits;
