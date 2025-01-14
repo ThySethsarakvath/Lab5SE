@@ -15,6 +15,7 @@
  * -name: subject
  * -credits: subject
  */
+
 public class subject {
 
     private static final double price;
@@ -22,7 +23,7 @@ public class subject {
         price = 9.9;
     }
 
-    private static final String PROGRAM = "Year 2 Program";
+    private static final String PROGRAM = "Year 2 Program"; // 
 
     private String name;
     private int credits;
@@ -49,7 +50,7 @@ public class subject {
     }
 
     public void setName(String name) {
-        if (name == null || name.isEmpty()) {
+        if (name == null || name.isEmpty()) { //checking if the name variable is either uninitialized (null) or if it is an empty string ("").
             throw new IllegalArgumentException("Subject name cannot be null or empty.");
         }
         this.name = name;
